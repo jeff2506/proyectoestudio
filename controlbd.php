@@ -3,7 +3,7 @@
 $usuario = $_POST['usuario'];
 $contraseña = $_POST['contraseña'];
 
-$conexion = mysqli_connect('localhost', 'root', '','Registro');
+$conexion = mysqli_connect('https://jeff2506.github.io/proyectoestudio/', 'root', '','Registro');
 $consulta = "select * from usuarios where nombre_usuario = '$usuario' and contraseña = '$contraseña' ";
 $ejecutar = mysqli_query($conexion,$consulta);
 

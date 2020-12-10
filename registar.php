@@ -13,7 +13,7 @@ $ejecutar = mysqli_query($conexion,$insetar);
 if($ejecutar)
 {
     echo "registrado";
-    header('location:pagina-principal.html');
+    header('location:pagina_principal.html');
 }
 else
 {

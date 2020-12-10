@@ -1,0 +1,61 @@
+
+@font-face
+{
+    font-family: 'berk';
+    src: url('../fuentes/berkshireswash-regular.ttf');
+}
+
+.body {
+    
+    position: absolute;
+    width: 100%;
+    height: 100vw;
+    margin: 0%;
+    background-color: #333333;
+    
+    
+}
+
+.encabezado
+{
+    width: 100%;
+    height: 8vw;
+    background-color: #373737;
+}
+.encabezado div
+{
+    display: inline-flex;
+    width: 30vw;
+    height: 8vw;
+    align-items: center;
+    margin-inline: 1.2vw;
+}
+
+.titulo:any-link
+{
+    
+    position: absolute;
+    text-decoration: none;
+    font-family: berk;
+    font-size: 2.95vmax;
+    margin: 0%;
+    margin-left: 9vw;
+    color: #d3d3d3;
+}
+
+
+.seccion div, img
+{
+    display: inline-flex;
+    width: 30vw;
+    height: auto;
+    margin: 1vw;
+}
+.seccion img:hover
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transition: 2s;
+    transform: scale(1.2,1.2);
+}

@@ -11,7 +11,7 @@ $N_Resultado = mysqli_num_rows($ejecutar);
 
 if($N_Resultado > 0)
 {
-   header('location:pagina-principal.html');
+   header('location:pagina_principal.html');
 }
 else{
 

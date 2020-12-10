@@ -51,11 +51,3 @@
     height: auto;
     margin: 1vw;
 }
-.seccion img:hover
-{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    transition: 2s;
-    transform: scale(1.2,1.2);
-}
